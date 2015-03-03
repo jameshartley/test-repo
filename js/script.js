@@ -34,6 +34,8 @@
 		});
 	});
 
+	//test comment
+
 	//With more time I would refine this section to reduce code. Find nearest span.plus in relation to the item currently being hovered upon and rotate that element. 
 	$('#categories a.one').hover(function(){$("#categories a.one span.plus").css("transform", "rotate(360deg)")}, function(){$("#categories a.one span.plus").css("transform", "rotate(-360deg)")});
 	$('#categories a.two').hover(function(){$("#categories a.two span.plus").css("transform", "rotate(360deg)")}, function(){$("#categories a.two span.plus").css("transform", "rotate(-360deg)")});
